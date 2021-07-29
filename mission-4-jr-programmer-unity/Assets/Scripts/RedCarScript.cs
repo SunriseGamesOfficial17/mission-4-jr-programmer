@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// an example of inheritance
 public class RedCarScript : Car
 {
     void Start()
@@ -21,6 +22,7 @@ public class RedCarScript : Car
             CarHornStop(audioSource);
         }
 
+        // an example of abstraction
         CarMove(speed, turnSpeed);
     }
 
@@ -33,6 +35,7 @@ public class RedCarScript : Car
         }   
     }
 
+    // an example of polymorphism
     protected override void CarAction()
     {
         Debug.Log("Your vehicle picked up the crate");

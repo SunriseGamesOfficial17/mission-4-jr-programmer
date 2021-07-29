@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a801652feb9dd94b8194c0833629c2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15000
+  speed: 800000
   turnSpeed: 15
   audioClip: {fileID: 8300000, guid: 81e32fc267763884a84a419cb1361bd5, type: 3}
   audioSource: {fileID: 7662284819583972111}
